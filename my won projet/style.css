@@ -11,13 +11,15 @@ body{
     font-style:bold;
     cursor: pointer;
 }
-.navber :hover{
-    color: blue;
-    background-color:rgba(72, 0, 255, 0.342) ;
+.navber a :hover{
+   
+    background-color:rgb(72, 0, 255) ;
 }
-a{
+.navber a{
     border: 0.5px solid white;
-    background: #ffffff5a;
+    background: #108dd0;
+    text-decoration: none;
+    color: bisque;
 }
 .a-elemet{
     padding: 10px;
@@ -28,7 +30,8 @@ a{
     width: 30px;
     margin: 10px;
     cursor: pointer;
-    border: 0.5px solid white;
+    border: 0.5px solid rgba(24, 221, 195, 0.963);
+    border-radius: 20% solid red;
 }
 .FORM{
     padding: 20px;
@@ -51,16 +54,18 @@ p{
     justify-content: center;
     align-items: center;
 }
-button{
+a{
     background-color: black;
+    margin-left: 600px;
     padding: 10px 20px;
     font: size 100px;
     border: none;
     border-radius: 5px;
     color:blue;
     cursor: pointer;
+    text-decoration: none;
 }
-button:hover{
+a:hover{
     background:greenyellow;
     transition-duration: 0.5ms;
 }

@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  display: 0;
+}
+.forminfo{
+   background: linear-gradient(to right,#348F50,#56B4D3);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.contact-form{
+    background-color:rgba(245, 245, 245, 0.945);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10;
+}
+.contact-form h1{
+    text-align: center;
+}
+.sai{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input ,textarea{
+   width: 100%;
+   border: 2px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+a{
+    background-color: rgba(99, 27, 144, 0.8);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    background:red;
+    transition-duration: 0.5ms;
+}
+
+
+

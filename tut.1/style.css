@@ -1,0 +1,19 @@
+    h1{
+    color: rgb(240, 186, 172);
+}
+img{
+    width: 500px;
+    height: 150px;
+    object-fit: contain;
+}
+.my-container{
+    text-align: center;
+}
+p{
+    color: blue;
+}
+button{
+    color:red;
+    width: 50px;
+    height: 50px;
+}

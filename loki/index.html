@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wesite</title>
+    <link rel="icon" type="imge/x-icon" href="https://media.istockphoto.com/id/1445226728/photo/travel-road-trip-and-adventure-friends-fun-with-outdoor-holiday-summer-vacation-and.jpg?b=1&s=612x612&w=0&k=20&c=aXHb6vCxuk1b-QWMO7UeqGtqP2FjbUseFwH7DpuHuNE=">
+</head>
+<style>
+    body{
+    display: 0;
+    margin: 0;
+}
+.sai{
+    background: linear-gradient(to right,#348F50,#56B4D3);
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .sai-1{
+     background-color:rgba(245, 245, 245, 0.945);
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10;
+ }
+ .sai-1 h1{
+     text-align: center;
+ }
+ .sai-2{
+   display:contents;
+   flex-direction: column;
+   justify-content: center;
+ }
+ .label{
+    display: block;
+    margin-bottom: 10px;
+}
+input ,textarea{
+   width: 100%;
+   padding: 10px 10px 5px 5px;
+   border: 2px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+   cursor: pointer;
+   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+a{
+    background-color: rgba(99, 27, 144, 0.8);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    background:red;
+    transition-duration: 0.5ms;
+}
+.search{
+   width: 350px;
+   padding: 8px 20px 8px 45px;
+   font-size: 18px;
+   border-radius: 25px;
+   background-position: 2% 50%;
+   background-repeat: no-repeat;
+   background-size: 30px;
+   background-image: url("https://cdn-icons-png.flaticon.com/128/149/149852.png");
+}
+
+</style>
+<body>
+<div class="sai">
+    <form action="" >
+        <div class="sai-1">
+            <h1>CONTACT</h1>
+        <div>
+            <label for="name" >NAME:</label>
+            <input type="text" placeholder="enter name" >
+        </div>
+        <br>
+        <div>
+            <label for="">EMAIL:</label>
+            <input type="text" id="email" name="email" placeholder="enter email" required>
+        </div>
+        <br>
+        <div>
+            <label for="CONTACT">CONTACT:</label>
+            <input type="text" id="contact" name="contact" placeholder="enter the contact">
+        </div>
+        <br>
+        <div class="sai-2">
+            <label for="">GANDER:</label>
+            <select name="" id="" >
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="date">DATE:</label>
+            <input type="date" id="date" name="date" >
+        </div>
+        <br>
+        <div>
+            <label for="COUNTRY">COUNTRY:</label>
+            <select name="COUNTRY" id="COUNTRY" required>
+                <option value="america">america</option>
+                <option value="indian">indian:</option>
+                <option value="uk">uk:</option>
+                <option value="america">america:</option>
+                <option value="canada">canada:</option>
+                <option value="afireca">afireca:</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="PHOTO">PHOTO:</label>
+            <input type="file" name="file" id="file">
+        </div>
+        <br>
+        <div>
+            <label for="sing">SING:</label>
+            <input type="file" id="sing" name="sing" >
+        </div>
+         <br>
+        <div>
+            <label for="massege">MASSEGE:</label>
+            <textarea name="massege" id="" cols="30" rows="10" ></textarea>
+        </div>
+        <br>
+        <a href="" onclick="" >SUBMITE</a>
+        <br>
+        <br>
+        </div>
+        <br>
+        <br>
+       
+    </form>
+</div>
+</body>
+</html>
