@@ -29,6 +29,8 @@
 }
 .nav-logo h1{
     margin: 0;
+    padding: 0;
+    gap: 0;
 }
 .search input{
    width: 350px;
@@ -38,8 +40,7 @@
    background-position: 2% 50%;
    background-repeat: no-repeat;
    background-size: 30px;
-   background-image: url("https://cdn-icons-png.flaticon.com/128/149/149852.png");
-   
+   background-image: url("https://cdn-icons-png.flaticon.com/128/149/149852.png"); 
 }
 .search img{
     position: relative;
@@ -95,9 +96,8 @@ img{
 }
 .service-info{
     position: relative;
-    width: calc(33.33% - 20px);
+    /*width: calc(33.3% - 20px); */
     box-shadow: 0 4px 8px rgb(0,0,0,0.5);
-    flex-wrap: 1;
 }    
 .service-info :hover{
     box-shadow: 5px 5px 0px 0px rgba(109,40,217);
@@ -138,7 +138,7 @@ img{
 .tutorail-card{
     display: flex;
     flex-wrap: wrap;
-    width: calc(33.33% - 20px);
+    /*width: calc(33.3% - 20px); */
     box-shadow: 0 4px 8px rgb(0,0,0,0.5);
 }
 .tutorail-card:hover{
@@ -187,26 +187,7 @@ input:hover{
     background:red;
     transition-duration: 0.5ms;
 }
-@media  (max-width:567px) {
-    .service-container{
-        padding: 0px;
-        margin: 0px;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .tutorail-container{
-        padding: 0px;
-        margin: 0px;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .navber{
-        padding: 0px;
-        margin: 0px;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-}
+
   </style>
 <body>
     <div class="navber">
